@@ -1,12 +1,25 @@
-# React + Vite
+# Custom Countdown React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um contador regressivo personalizável desenvolvido com React. O usuário pode:
 
-Currently, two official plugins are available:
+- Definir o nome do evento
+- Escolher uma data alvo
+- Adicionar uma imagem representando o evento
+- Alterar a cor do tema do contador
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Tecnologias utilizadas
+- React
+- Hooks (useState, useContext)
+- Estilização customizável com CSS
 
-## Expanding the ESLint configuration
+## Telas do Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Tela 1: Tela Inicial
+A tela inicial permite que o usuário comece a configurar seu evento. Nela é possível inserir o nome do evento, escolher uma data, selecionar uma imagem e definir a cor do tema.
+
+![Tela Inicial](assets/telaincial.jpg)
+
+### Tela 2: Meu Evento
+Após configurar os dados, o usuário é levado para a tela do evento. Essa tela exibe a contagem regressiva personalizada com o nome, imagem e tema definidos.
+
+![Meu Evento](assets/meuevento.jpg)
